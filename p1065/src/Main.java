@@ -12,8 +12,7 @@ public class Main {
                 arr[i][j] = input.nextInt();
 
             }
-        } // 여기까지는 기본 알고리즘.
-
+        } // 여기까지는 기본 알고리즘
 
 
 
