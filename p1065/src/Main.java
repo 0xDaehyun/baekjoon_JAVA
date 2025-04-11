@@ -25,11 +25,23 @@ public class Main {
                     arr[i][1] = arr[j][1];
                     arr[j][1] = save1;
                     save2 = arr[i][0];  // save에 이전항을 저장해놓는다.
-                    arr[i][0] = arr[j][0];
-                    arr[j][0] = save2;
-                }
+                 }
+            }
+        } // 회의가 끝나는 시간 기준으로 오름차순으로 정렬한다.
+
+        int [][] result  = new int[testcase][2]; // 결과를 따로 저장해야 할까 ?
+
+// 이 밑으로는 겹치는 시간 제외 , 겹치는 구간중 가장긴 시간 제외가 필요
+        // 비교 연산자 사용 필요
+        //
+        for(int i = testcase; i > 1; i--) {
+            for (int j = testcase - 1; j > 0; j--) {
+
+
             }
         }
+
+
 
 
     }
